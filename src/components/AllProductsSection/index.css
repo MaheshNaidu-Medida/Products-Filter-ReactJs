@@ -51,15 +51,29 @@
 .failure-container {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .no-products-container {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .view-image {
   width: 100%;
+}
+.heading {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
 }

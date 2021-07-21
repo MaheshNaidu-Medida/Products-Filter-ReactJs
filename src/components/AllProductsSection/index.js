@@ -157,20 +157,28 @@ class AllProductsSection extends Component {
   renderAPIFailure = () => (
     <div className="failure-container">
       <img
-        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-products-error-view.png "
+        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-products-error-view.png"
         alt="products failure"
         className="view-image"
       />
+      <h1 className="heading">Oops! Something Went Wrong</h1>
+      <p className="description">
+        We are having trouble processing your request. Please try again.
+      </p>
     </div>
   )
 
   renderNoProducts = () => (
     <div className="no-products-container">
       <img
-        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png "
+        src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png"
         alt="no products"
         className="view-image"
       />
+      <h1 className="heading">No Products Found</h1>
+      <p className="description">
+        We could not find any products.Try other filters.
+      </p>
     </div>
   )
 

@@ -1,4 +1,4 @@
-import {BiSearchAlt2} from 'react-icons/bs'
+import {BiSearchAlt2} from 'react-icons/bi'
 import './index.css'
 
 const FiltersGroup = props => {
@@ -20,7 +20,7 @@ const FiltersGroup = props => {
   }
 
   const onEnterKeyPress = event => {
-    if (event.key === 'enter') {
+    if (event.key === 'Enter') {
       onClickEnterSearch()
     }
   }
